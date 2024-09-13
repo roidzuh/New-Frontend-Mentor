@@ -1,4 +1,4 @@
 [build]
-base = "01.faq-accordion"
+base = "01.Newbie/01.faq-accordion"
 publish = "dist"
 command = "npm run build"
