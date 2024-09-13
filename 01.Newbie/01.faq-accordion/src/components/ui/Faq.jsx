@@ -15,7 +15,7 @@ const Faq = ({ faq, onClick, onSelect }) => {
           className="flex relative text-left group"
           onClick={toggleAccordion}
         >
-          <h2 className="max-w-[225px] font-semibold text-titleMobile text-darkPurple lg:text-title lg:max-w-[28rem]  transition-all duration-300 ease-in-out group-hover:text-pink">
+          <h2 className="max-w-[225px] font-semibold text-titleMobile text-darkPurple lg:text-title lg:max-w-[28rem]  transition-all duration-300 ease-in-out lg:group-hover:text-pink">
             {faq.question}
           </h2>
 
