@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f8eeff;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: minmax(1.5rem, 26.25rem) minmax(20.44rem, 37.5rem) minmax(
+      1.5rem,
+      26.25rem
+    );
+  grid-template-rows: 8.906rem 5.375rem auto;
+  justify-content: center;
+}
+
+.bg-responsive {
+  background-image: url('./assets/images/background-pattern-mobile.svg');
+}
+
+.not-first-child > :not(:first-child) {
+  @apply pt-5;
+}
+
+.not-last-child > :not(:last-child) {
+  @apply pb-5;
+}
+
+.not-first-child > :not(:first-child) .line {
+  @apply absolute w-full h-[1px] bg-[#F8EEFF] top-0;
+}
+
+@media (min-width: 1024px) {
+  #root {
+    grid-template-rows: 10.469rem 9.063rem auto;
+  }
+
+  .bg-responsive {
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+  }
+
+  .not-first-child > :not(:first-child) {
+    @apply pt-6;
+  }
+
+  .not-last-child > :not(:last-child) {
+    @apply pb-6;
+  }
+}
