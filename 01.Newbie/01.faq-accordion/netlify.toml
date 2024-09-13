@@ -1,0 +1,4 @@
+[build]
+base = "faq-accordion"
+publish = "dist"
+command = "npm run build"
