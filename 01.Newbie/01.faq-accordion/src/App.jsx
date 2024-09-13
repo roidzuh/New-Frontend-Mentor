@@ -26,7 +26,9 @@ const faqs = [
 ];
 
 const App = () => {
-  const [selectedFaq, setSelectedFaq] = useState(null);
+  const [selectedFaq, setSelectedFaq] = useState(
+    ' What is Frontend Mentor, and how will it help me?'
+  );
 
   const toggleAccordion = (selectedFaq) => {
     setSelectedFaq(selectedFaq);
