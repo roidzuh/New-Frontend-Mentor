@@ -1,0 +1,4 @@
+[build]
+base = "02.Junior/01.contact-form"
+publish = "dist"
+command = "npm run build"

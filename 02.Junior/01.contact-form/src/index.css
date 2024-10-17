@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #e0f1e8;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-gradient {
+  background: #0c7d69;
+}
+
+.custom-gradient:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    #0c7d69; /* Warna hijau tetap di bawah */
+}
