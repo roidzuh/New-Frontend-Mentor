@@ -1,0 +1,4 @@
+[build]
+base = "02.Junior/02.news-homepage/"
+publish = "dist"
+command = "npm run build"
