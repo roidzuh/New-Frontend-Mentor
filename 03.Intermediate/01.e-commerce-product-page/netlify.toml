@@ -1,0 +1,4 @@
+[build]
+base = "03.Intermediate/01.e-commerce-product-page/"
+publish = "dist"
+command = "npm run build"
