@@ -6,3 +6,6 @@
 ### 02. Junior:
   - \01. contact-form: [https://contact-form-frontendmentor-roid.netlify.app/](https://contact-form-frontendmentor-roid.netlify.app/)
   - \02. news-homepage: [https://news-homepage-frontendmentor-roid.netlify.app/](https://news-homepage-frontendmentor-roid.netlify.app/)
+
+### 03. Intermediate: 
+  - \01. ecommerce-product-page: [https://ecommerce-product-frontendmentor-roid.netlify.app/](https://ecommerce-product-frontendmentor-roid.netlify.app/)
